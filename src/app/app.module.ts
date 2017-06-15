@@ -13,7 +13,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    MyTeamsPage,
+    TournamentsPage,
+    GamePage,
+    TeamDetailPage,
+    TeamsPage
+
   ],
   imports: [
     BrowserModule,
@@ -23,7 +29,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    MyTeamsPage,
+    TournamentsPage,
+    GamePage,
+    TeamDetailPage,
+    TeamsPage
   ],
   providers: [
     StatusBar,
