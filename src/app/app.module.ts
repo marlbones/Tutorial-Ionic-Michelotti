@@ -5,6 +5,11 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { MyTeamsPage } from '../pages/myTeams/myTeamsPage';
+import { TournamentsPage } from '../pages/tournaments/tournaments';
+import { GamePage } from '../pages/game/game';
+import { TeamDetailPage } from '../pages/team-detail/team-detail';
+import { TeamsPage } from '../pages/teams/teams';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
