@@ -14,11 +14,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class TeamDetailPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
+  team: any;
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad TeamDetailPage');
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.team = this.navParams.data; //navParams now contains whatever was passed into in. In this case team form previous page.
+    console.log('**nav params:', this.navParams);
   }
 
 }
