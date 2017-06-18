@@ -10,7 +10,7 @@ import { ListPage } from '../pages/list/list';
 // import { GamePage } from '../pages/game/game';
 // import { TeamDetailPage } from '../pages/team-detail/team-detail';
 // import { TeamsPage } from '../pages/teams/teams';
-import {MyTeamsPage, TournamentsPage, GamePage, TeamDetailPage, TeamsPage} from '../pages/pages';
+import {MyTeamsPage, TournamentsPage, GamePage, TeamDetailPage, TeamsPage, StandingsPage, TeamHomePage} from '../pages/pages';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -25,7 +25,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TournamentsPage,
     GamePage,
     TeamDetailPage,
-    TeamsPage
+    TeamsPage,
+    StandingsPage,
+    TeamHomePage
 
   ],
   imports: [
@@ -42,7 +44,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TournamentsPage,
     GamePage,
     TeamDetailPage,
-    TeamsPage
+    TeamsPage,
+    StandingsPage,
+    TeamHomePage
   ],
   providers: [
     StatusBar,
